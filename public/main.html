@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Email Sender</title>
+</head>
+<body>
+    <main>
+        <div class="form-container">
+            <h4>Fullstack Developer form </h4>
+            <form method="post" id="form" enctype="multipart/form-data" action="/api/home">
+                <div class="input-text">
+                    <span>FullName</span>
+                    <input type="text" name="fullName" id="fname" placeholder="Full name"  required>
+                </div>
+                <div class="input-text">
+                    <span>Email</span>
+                    <input type="email" name="email" id="email" placeholder="Enter email" required>
+                </div>
+
+                <div class="input-text">
+                    <span>Position</span>
+                    <input type="text" name="Position" id="pos" placeholder="Enter position here" required>
+                </div>
+
+                <div class="input-text">
+                    <span>Upload CV</span>
+                    <input type="file" name="upload_file" id="file" required>
+                </div>
+                <div class="input-text">
+                    <span>Cover letter</span>
+                    <textarea name="text" id="" cols="30" rows="10" placeholder="Message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,73 @@
+html{
+    scroll-behavior: smooth;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: tomato;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-container{
+    width: 400px;
+    background: purple;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+h4{
+    color: white;
+}
+.input-text{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin: 10px;
+}
+.input-text > span{
+    float: left;
+    color: #EFEFEF;
+    font-size: 20px;
+}
+
+.input-text > input{
+    padding: 5px;
+    width: 250px;
+    outline: none;
+    
+}
+
+.input-text > textarea{
+    padding: 5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    background: green;
+    color:white;
+    cursor: pointer;
+}
+
+
+
